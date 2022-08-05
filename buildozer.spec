@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = Kivy Launcher
+title = (NT) Kivy Launcher
 
 # (str) Package name
-package.name = launcher
+package.name = un_official_launcher
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.kivy
@@ -36,7 +36,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma seperated e.g. requirements = sqlite3,kivy
-requirements = kivy, android
+requirements = python3,kivy==master,hostpython3,android
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -52,7 +52,7 @@ requirements = kivy, android
 #icon.filename = %(source.dir)s/data/icon.png
 
 # (str) Supported orientation (one of landscape, portrait or all)
-orientation = portrait
+orientation = all
 
 # (list) List of service to declare
 #services = NAME:ENTRYPOINT_TO_PY,NAME2:ENTRYPOINT2_TO_PY
@@ -62,13 +62,13 @@ orientation = portrait
 #
 
 #
-# author = © Copyright Info
+# author = ﾂｩ Copyright Info
 
 # change the major version of python used by the app
 osx.python_version = 3
 
 # Kivy version to use
-osx.kivy_version = 1.9.1
+osx.kivy_version = 2
 
 #
 # Android specific
@@ -85,7 +85,7 @@ fullscreen = 0
 #android.presplash_color = #FFFFFF
 
 # (int) Android API to use
-#android.api = 19
+android.api = 28
 
 # (int) Minimum API required
 #android.minapi = 9
@@ -141,7 +141,13 @@ android.ndk = 19b
 
 # (list) Gradle dependencies to add (currently works only with sdl2_gradle
 # bootstrap)
-#android.gradle_dependencies =
+#android.gradle_dependencies ="androidx.documentfile:documentfile:1.0.1","androidx.core:core:1.7.0"
+#android.gradle_dependencies = "androidx.documentfile:documentfile:1.0.1"
+#android.gradle_dependencies = "androidx.core:core:1.7.0" NG
+#android.gradle_dependencies = "androidx.core:core:1.1.0"
+android.gradle_dependencies = "androidx.documentfile:documentfile:1.0.1","androidx.core:core:1.1.0"
+
+android.enable_androidx = True
 
 # (str) python-for-android branch to use, defaults to stable
 p4a.branch = master
