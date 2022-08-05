@@ -1,7 +1,7 @@
 [app]
 
 # (str) Title of your application
-title = (NT) Kivy Launcher
+title = (NTK) Kivy Launcher
 
 
 # (str) Package name
@@ -95,7 +95,8 @@ android.api = 28
 #android.sdk = 20
 
 # (str) Android NDK version to use
-android.ndk = 19b
+# android.ndk = 19b
+android.ndk = 23
 
 # (bool) Use --private data storage (True) or --dir public storage (False)
 #android.private_storage = True
