@@ -3,6 +3,7 @@
 # (str) Title of your application
 title = (NT) Kivy Launcher
 
+
 # (str) Package name
 package.name = un_official_launcher
 
