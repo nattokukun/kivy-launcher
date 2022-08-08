@@ -86,7 +86,12 @@ fullscreen = 0
 #android.presplash_color = #FFFFFF
 
 # (int) Android API to use
-android.api = 28
+
+########################
+#	android.api = 28
+android.api = 30
+############################
+
 
 # (int) Minimum API required
 #android.minapi = 9
@@ -151,9 +156,7 @@ android.api = 28
 ##############
 ###    android.gradle_dependencies = "androidx.documentfile:documentfile:1.0.1","androidx.core:core:1.1.0"
 
-# android.gradle_dependencies = "androidx.documentfile:documentfile:1.0.1"	NG
-
-android.gradle_dependencies = "androidx.documentfile:documentfile:1.1.0-alpha01"
+android.gradle_dependencies = "androidx.documentfile:documentfile:1.0.1"
 
 
 
