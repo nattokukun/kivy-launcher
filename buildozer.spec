@@ -150,6 +150,7 @@ android.api = 28
 
 ##############
 ###    android.gradle_dependencies = "androidx.documentfile:documentfile:1.0.1","androidx.core:core:1.1.0"
+android.gradle_dependencies = "androidx.documentfile:documentfile:1.0.1"
 ##############
 
 
