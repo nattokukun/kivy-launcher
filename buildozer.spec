@@ -46,7 +46,7 @@ version = 0.1
 
 ## requirements = python3,kivy==master,hostpython3,android
 
-requirements = kivy
+## requirements = kivy
 
 
 ##############################################
@@ -255,7 +255,7 @@ android.arch = armeabi-v7a
 # (list) Permissions
 [app:android.permissions]
 READ_EXTERNAL_STORAGE
-WRITE_EXTERNAL_STORAGE
+###### WRITE_EXTERNAL_STORAGE
 ACCESS_LOCATION_EXTRA_COMMANDS
 ACCESS_NETWORK_STATE
 ACCESS_NOTIFICATION_POLICY
