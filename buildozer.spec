@@ -174,12 +174,7 @@ android.sdk = 30
 ## android.gradle_dependencies = androidx.documentfile:documentfile:1.0.1	OK
 ## android.gradle_dependencies = androidx.documentfile:documentfile:1.0.1,androidx.core:core:1.7.0		NG
 
-
-
-## android.gradle_dependencies = androidx.documentfile:documentfile:1.0.1,androidx.core:core:1.1.0
-
-
-
+android.gradle_dependencies = androidx.documentfile:documentfile:1.0.1,androidx.core:core:1.1.0
 ##############
 
 
@@ -192,8 +187,8 @@ p4a.branch = master
 #android.manifest.intent_filters =
 
 # (str) launchMode to set for the main activity
+android.manifest.launch_mode = standard
 ##################
-## android.manifest.launch_mode = standard
 
 # (list) Android additionnal libraries to copy into libs/armeabi
 #android.add_libs_armeabi = libs/android/*.so
