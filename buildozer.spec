@@ -37,19 +37,12 @@ version = 0.1
 
 # (list) Application requirements
 # comma seperated e.g. requirements = sqlite3,kivy
-##############################################
+########################
 ## requirements = python3,kivy==master,hostpython3,android
-
 ## requirements = python3,kivy==master,sqlite3,pathlib,android,requests,bs4,urllib3,chardet,idna
-
 ## requirements = python3,kivy,hostpython3,android
-
-## requirements = python3,kivy==master,hostpython3,android
-
-## requirements = kivy
-
-
-##############################################
+requirements = python3,kivy==master,hostpython3,android,requests
+########################
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -65,8 +58,8 @@ version = 0.1
 #icon.filename = %(source.dir)s/data/icon.png
 
 # (str) Supported orientation (one of landscape, portrait or all)
-############
 ## orientation = all
+############
 
 # (list) List of service to declare
 #services = NAME:ENTRYPOINT_TO_PY,NAME2:ENTRYPOINT2_TO_PY
@@ -100,7 +93,7 @@ fullscreen = 0
 
 # (int) Android API to use
 
-########################
+############################
 #	android.api = 28
 android.api = 30
 ############################
@@ -173,10 +166,8 @@ android.sdk = 30
 ## android.gradle_dependencies = "androidx.documentfile:documentfile:1.0.1","androidx.core:core:1.1.0"
 ## android.gradle_dependencies = androidx.documentfile:documentfile:1.0.1	OK
 ## android.gradle_dependencies = androidx.documentfile:documentfile:1.0.1,androidx.core:core:1.7.0		NG
-
 android.gradle_dependencies = androidx.documentfile:documentfile:1.0.1,androidx.core:core:1.1.0
 ##############
-
 
 android.enable_androidx = True
 
@@ -188,7 +179,6 @@ p4a.branch = master
 
 # (str) launchMode to set for the main activity
 android.manifest.launch_mode = standard
-##################
 
 # (list) Android additionnal libraries to copy into libs/armeabi
 #android.add_libs_armeabi = libs/android/*.so
@@ -250,7 +240,7 @@ android.arch = armeabi-v7a
 # (list) Permissions
 [app:android.permissions]
 READ_EXTERNAL_STORAGE
-###### WRITE_EXTERNAL_STORAGE
+###################### WRITE_EXTERNAL_STORAGE
 ACCESS_LOCATION_EXTRA_COMMANDS
 ACCESS_NETWORK_STATE
 ACCESS_NOTIFICATION_POLICY
