@@ -1,8 +1,7 @@
 [app]
 
 # (str) Title of your application
-title = (NTK) Kivy Launcher
-
+title = Kivy Launcher
 
 # (str) Package name
 package.name = un_official_launcher
@@ -58,7 +57,7 @@ requirements = python3,kivy==master,hostpython3,android,requests
 #icon.filename = %(source.dir)s/data/icon.png
 
 # (str) Supported orientation (one of landscape, portrait or all)
-## orientation = all
+orientation = all
 ############
 
 # (list) List of service to declare
@@ -104,8 +103,7 @@ android.api = 30
 
 # (int) Android SDK version to use
 ############################
-#android.sdk = 20
-#android.sdk = 30
+#	android.sdk = 20
 android.sdk = 30
 ############################
 
