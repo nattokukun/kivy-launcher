@@ -57,7 +57,8 @@ requirements = python3,kivy==master,hostpython3,android,requests
 #icon.filename = %(source.dir)s/data/icon.png
 
 # (str) Supported orientation (one of landscape, portrait or all)
-orientation = all
+# orientation = all NG
+orientation = portrait
 ############
 
 # (list) List of service to declare
