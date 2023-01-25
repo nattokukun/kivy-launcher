@@ -237,7 +237,7 @@ android.arch = armeabi-v7a
 #ios.codesign.release = %(ios.codesign.debug)s
 
 # (list) Permissions
-android.permissions = android.permission.READ_EXTERNAL_STORAGE
+android.permissions = android.permission.READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE
 
 
 
