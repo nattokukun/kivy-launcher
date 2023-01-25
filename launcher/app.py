@@ -34,7 +34,7 @@ class Launcher(App):
             """
             sdcard_path = Environment.getExternalStorageDirectory()\
                 .getAbsolutePath()
-　　　　　　"""
+            """
             sdcard_path = Environment.getExternalStorageDirectory()\
                 .getAbsolutePath() + "/Android/data"
             ###################
