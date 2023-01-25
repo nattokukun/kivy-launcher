@@ -31,8 +31,14 @@ class Launcher(App):
         if platform == 'android':
             from jnius import autoclass
             Environment = autoclass('android.os.Environment')
+　　　　　　"""
             sdcard_path = Environment.getExternalStorageDirectory()\
                 .getAbsolutePath()
+　　　　　　"""
+            sdcard_path = Environment.getExternalStorageDirectory()\
+                .getAbsolutePath() + "/Android/data"
+            ###################
+
             self.paths = [sdcard_path + "/kivy"]
         else:
             self.paths = [os.path.expanduser("~/kivy")]
