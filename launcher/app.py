@@ -31,7 +31,7 @@ class Launcher(App):
         if platform == 'android':
             from jnius import autoclass
             Environment = autoclass('android.os.Environment')
-　　　　　　"""
+            """
             sdcard_path = Environment.getExternalStorageDirectory()\
                 .getAbsolutePath()
 　　　　　　"""
