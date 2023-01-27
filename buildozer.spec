@@ -41,8 +41,7 @@ version = 0.2
 ## requirements = python3,kivy==master,hostpython3,android
 ## requirements = python3,kivy==master,sqlite3,pathlib,android,requests,bs4,urllib3,chardet,idna
 ## requirements = python3,kivy,hostpython3,android
-## requirements = python3,kivy==master,hostpython3,android,requests,urllib3,pillow,charset-normalizer
-requirements = python3,kivy==master,hostpython3,android,requests,urllib3,pillow
+requirements = python3,kivy==master,hostpython3,android,requests,urllib3,pillow,charset-normalizer
 ########################
 
 # (str) Custom source folders for requirements
