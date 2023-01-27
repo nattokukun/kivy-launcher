@@ -98,8 +98,7 @@ fullscreen = 0
 # 11
 #	android.api = 30
 # 10
-#	android.api = 29
-android.api = 28
+android.api = 29
 ############################
 
 
@@ -112,13 +111,12 @@ android.api = 28
 # 11
 #	android.sdk = 30
 # 10
-#	android.sdk = 29
+android.sdk = 29
 ############################
 
 # (str) Android NDK version to use
 # android.ndk = 19b
 # android.ndk = 23
-android.ndk = 19b
 
 # (bool) Use --private data storage (True) or --dir public storage (False)
 #android.private_storage = True
