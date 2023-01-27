@@ -249,7 +249,7 @@ android.arch = armeabi-v7a
 #############################################
 [app:android.permissions]
 READ_EXTERNAL_STORAGE
-#### WRITE_EXTERNAL_STORAGE
+WRITE_EXTERNAL_STORAGE
 ACCESS_LOCATION_EXTRA_COMMANDS
 ACCESS_NETWORK_STATE
 ACCESS_NOTIFICATION_POLICY
