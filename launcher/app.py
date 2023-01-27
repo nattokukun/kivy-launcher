@@ -52,7 +52,7 @@ class Launcher(App):
             request_permissions([Permission.READ_EXTERNAL_STORAGE])
             ####
             """
-            # ƒ\[ƒXƒtƒHƒ‹ƒ_‚ğİ’è
+            # ã‚½ãƒ¼ã‚¹ãƒ•ã‚©ãƒ«ãƒ€ã‚’è¨­å®š
             import sys
             sys.path.append('launcher')
             import cssys
