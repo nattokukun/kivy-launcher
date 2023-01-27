@@ -28,7 +28,8 @@ source.exclude_dirs = tests, bin, art
 #source.exclude_patterns = license,images/*/*.jpg
 
 # (str) Application versioning (method 1)
-version = 0.1
+# version = 0.1
+version = 0.2
 
 # (str) Application versioning (method 2)
 # version.regex = __version__ = ['"](.*)['"]
@@ -96,10 +97,7 @@ fullscreen = 0
 ############################
 #	android.api = 28
 # 11
-#	android.api = 30
-# 10
-#	android.api = 29
-android.api = 28
+android.api = 30
 ############################
 
 
@@ -110,16 +108,12 @@ android.api = 28
 ############################
 #	android.sdk = 20
 # 11
-#	android.sdk = 30
-# 10
-#	android.sdk = 29
+android.sdk = 30
 ############################
 
 # (str) Android NDK version to use
 # android.ndk = 19b
 # android.ndk = 23
-# android.ndk = 19b
-android.ndk = 25
 
 # (bool) Use --private data storage (True) or --dir public storage (False)
 #android.private_storage = True
@@ -249,7 +243,7 @@ android.arch = armeabi-v7a
 #############################################
 [app:android.permissions]
 READ_EXTERNAL_STORAGE
-WRITE_EXTERNAL_STORAGE
+#### WRITE_EXTERNAL_STORAGE
 ACCESS_LOCATION_EXTRA_COMMANDS
 ACCESS_NETWORK_STATE
 ACCESS_NOTIFICATION_POLICY

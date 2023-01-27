@@ -48,15 +48,17 @@ class Launcher(App):
         self.refresh_entries()
 
         if platform == 'android':
-            """
             from android.permissions import request_permissions, Permission
             request_permissions([Permission.READ_EXTERNAL_STORAGE])
+            ####
             """
             # ソースフォルダを設定
             import sys
             sys.path.append('launcher')
             import cssys
             cssys.request_access_storage()
+            """
+            ####
 
     def refresh_entries(self):
         data = []
