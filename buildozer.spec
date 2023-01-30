@@ -41,7 +41,9 @@ version = 0.2
 ## requirements = python3,kivy==master,hostpython3,android
 ## requirements = python3,kivy==master,sqlite3,pathlib,android,requests,bs4,urllib3,chardet,idna
 ## requirements = python3,kivy,hostpython3,android
-requirements = python3,kivy==master,hostpython3,android,requests,urllib3,pillow,charset-normalizer
+################# https://github.com/Android-for-Python/Android-for-Python-Users#64-bit-instead-of-32-bit
+## requirements = python3,kivy==master,hostpython3,android,requests,urllib3,charset-normalizer
+requirements = python3,kivy==master,hostpython3,android,requests,urllib3,charset-normalizer==2.1.1
 ########################
 
 # (str) Custom source folders for requirements
@@ -207,7 +209,6 @@ android.manifest.launch_mode = standard
 
 # (str) The Android arch to build for, choices: armeabi-v7a, arm64-v8a, x86
 android.arch = armeabi-v7a
-#### android.arch = arm64-v8a
 
 #
 # Python for android (p4a) specific
