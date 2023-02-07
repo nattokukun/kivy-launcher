@@ -36,8 +36,14 @@ class Launcher(App):
                 .getAbsolutePath()
             """
             ####
+            """
             sdcard_path = Environment.getExternalStorageDirectory()\
                 .getAbsolutePath() + "/Android/data/org.kivy.un_official_launcher"
+            """
+            from android import mActivity, activity
+            t_pname = mActivity.getPackageName()
+            sdcard_path = Environment.getExternalStorageDirectory()\
+                .getAbsolutePath() + "/Android/data/" + t_pname
             ####
 
             self.paths = [sdcard_path + "/kivy"]
