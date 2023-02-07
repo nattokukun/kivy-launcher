@@ -99,7 +99,8 @@ fullscreen = 0
 ############################
 #	android.api = 28
 # 11
-android.api = 30
+# android.api = 30
+android.api = 28
 ############################
 
 
@@ -110,7 +111,8 @@ android.api = 30
 ############################
 #	android.sdk = 20
 # 11
-android.sdk = 30
+# android.sdk = 30
+android.sdk = 28
 ############################
 
 # (str) Android NDK version to use
