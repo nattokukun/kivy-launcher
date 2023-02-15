@@ -1,9 +1,9 @@
 name: CI
 on:
   push:
-    branches: [ sdcard_access ]
+    branches: [ extended ]
   pull_request:
-    branches: [ sdcard_access ]
+    branches: [ extended ]
 
 jobs:
   build:
