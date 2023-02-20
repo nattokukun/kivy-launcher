@@ -49,11 +49,11 @@
         on_press:
             app.refresh_entries()
 
-    ToggleButton:
-        text: 'Show logs' if self.state == 'normal' else 'Hide logs'
-        state: 'down' if app.display_logs else 'normal'
-        on_state:
-            app.display_logs = self.state == 'down'
+    ## ToggleButton:
+    ##     text: 'Show logs' if self.state == 'normal' else 'Hide logs'
+    ##     state: 'down' if app.display_logs else 'normal'
+    ##     on_state:
+    ##         app.display_logs = self.state == 'down'
 
 
 <LauncherEntry@BoxLayout>:
