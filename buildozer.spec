@@ -46,6 +46,7 @@ version = 0.3
 ## requirements = python3,kivy==master,hostpython3,android,requests,urllib3,charset-normalizer
 requirements = python3,kivy==master,hostpython3,android,requests,urllib3,charset-normalizer==2.1.1,idna,kivy_garden.contextmenu
 ########################
+########################
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
