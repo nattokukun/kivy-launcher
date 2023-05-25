@@ -27,6 +27,7 @@ source.exclude_dirs = tests, bin, art
 # (list) List of exclusions using pattern matching
 #source.exclude_patterns = license,images/*/*.jpg
 
+
 # (str) Application versioning (method 1)
 # version = 0.1
 version = 0.2
