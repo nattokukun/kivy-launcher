@@ -27,10 +27,9 @@ source.exclude_dirs = tests, bin, art
 # (list) List of exclusions using pattern matching
 #source.exclude_patterns = license,images/*/*.jpg
 
-
 # (str) Application versioning (method 1)
 # version = 0.1
-version = 0.3
+version = 0.2
 
 # (str) Application versioning (method 2)
 # version.regex = __version__ = ['"](.*)['"]
@@ -44,7 +43,7 @@ version = 0.3
 ## requirements = python3,kivy,hostpython3,android
 ################# https://github.com/Android-for-Python/Android-for-Python-Users#64-bit-instead-of-32-bit
 ## requirements = python3,kivy==master,hostpython3,android,requests,urllib3,charset-normalizer
-requirements = python3,kivy==master,hostpython3,android,requests,urllib3,charset-normalizer==2.1.1,idna,kivy_garden.contextmenu
+requirements = python3,kivy==master,hostpython3,android,requests,urllib3,charset-normalizer==2.1.1,idna
 ########################
 
 # (str) Custom source folders for requirements
