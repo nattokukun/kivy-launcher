@@ -48,7 +48,7 @@ version = 0.2
 ###### requirements = python3,kivy==master,hostpython3,android,requests,urllib3,charset-normalizer==2.1.1,idna
 
 requirements = python3,kivy==master,hostpython3,android
-
+##### matplotlib
 ########################
 
 # (str) Custom source folders for requirements
@@ -57,6 +57,8 @@ requirements = python3,kivy==master,hostpython3,android
 
 # (list) Garden requirements
 #garden_requirements =
+#garden_requirements = matplotlib
+###############
 
 # (str) Presplash of the application
 #presplash.filename = %(source.dir)s/data/presplash.png
@@ -213,8 +215,8 @@ android.manifest.launch_mode = standard
 #android.copy_libs = 1
 
 # (str) The Android arch to build for, choices: armeabi-v7a, arm64-v8a, x86
-##### android.arch = armeabi-v7a
-android.arch = arm64-v8a
+android.arch = armeabi-v7a
+##### android.arch = arm64-v8a
 
 ###############################################
 
