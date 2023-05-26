@@ -123,6 +123,8 @@ android.sdk = 30
 # (str) Android NDK version to use
 # android.ndk = 19b
 # android.ndk = 23
+android.ndk = 25
+##############
 
 # (bool) Use --private data storage (True) or --dir public storage (False)
 #android.private_storage = True
@@ -183,7 +185,8 @@ android.gradle_dependencies = androidx.documentfile:documentfile:1.0.1,androidx.
 android.enable_androidx = True
 
 # (str) python-for-android branch to use, defaults to stable
-p4a.branch = master
+p4a.branch =development
+## p4a.branch = master
 
 # (str) XML file to include as an intent filters in <activity> tag
 #android.manifest.intent_filters =
