@@ -48,9 +48,11 @@ version = 0.2
 ###### requirements = python3,kivy==master,hostpython3,android,requests,urllib3,charset-normalizer==2.1.1,idna
 
 ## requirements = python3,kivy==master,hostpython3,android
+requirements = python3,kivy==master,hostpython3,android,cython==0.29.23, jnius==1.2.0
 
 
-requirements = kivy==2.0.0, cython==0.29.23, jnius==1.2.0
+
+## requirements = python3,kivy==2.0.0, cython==0.29.23, jnius==1.2.0
 
 
 ##### matplotlib
