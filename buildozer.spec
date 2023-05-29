@@ -54,6 +54,9 @@ requirements = python3,kivy==master,hostpython3,android
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
 # requirements.source.kivy = ../../kivy
+###################################
+requirements.source.cython = ../../cython
+###################################
 
 # (list) Garden requirements
 #garden_requirements =
@@ -124,6 +127,7 @@ android.sdk = 30
 # android.ndk = 19b
 # android.ndk = 23
 ##############  android.ndk = 25
+android.ndk = 21.4.7075529
 ##############
 
 # (bool) Use --private data storage (True) or --dir public storage (False)
