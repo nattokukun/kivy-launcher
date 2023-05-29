@@ -127,7 +127,7 @@ android.sdk = 30
 # android.ndk = 19b
 # android.ndk = 23
 ##############  android.ndk = 25
-android.ndk = 21.4.7075529
+#	android.ndk = 21.4.7075529
 ##############
 
 # (bool) Use --private data storage (True) or --dir public storage (False)
