@@ -312,6 +312,17 @@ warn_on_root = 0
 # (str) Path to build output (i.e. .apk, .ipa) storage
 # bin_dir = ./bin
 
+####################################
+# (int) Cython compiler optimization level (0-3)
+cython.optimization = 2
+
+# (str) Path to the Cython compiler
+cython.cython_path = /usr/local/bin/cython
+
+# (str) Cython compiler options
+cython.compilation_options = language_level=3
+####################################
+
 #    -----------------------------------------------------------------------------
 #    List as sections
 #
