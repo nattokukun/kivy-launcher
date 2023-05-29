@@ -45,8 +45,7 @@ version = 0.2
 ## requirements = python3,kivy==master,hostpython3,android,requests,urllib3,charset-normalizer
 ## requirements = python3,kivy==master,hostpython3,android,requests,urllib3,charset-normalizer==2.1.1,idna
 
-requirements = python3,kivy==master,hostpython3,android,cython
-
+requirements = python3,kivy==master,hostpython3,android,cython,jnius
 
 ########################
 
