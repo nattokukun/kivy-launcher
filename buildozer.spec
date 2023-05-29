@@ -43,32 +43,19 @@ version = 0.2
 ## requirements = python3,kivy,hostpython3,android
 ################# https://github.com/Android-for-Python/Android-for-Python-Users#64-bit-instead-of-32-bit
 ## requirements = python3,kivy==master,hostpython3,android,requests,urllib3,charset-normalizer
+## requirements = python3,kivy==master,hostpython3,android,requests,urllib3,charset-normalizer==2.1.1,idna
+
+requirements = python3,kivy==master,hostpython3,android,cython==3.0.0
 
 
-###### requirements = python3,kivy==master,hostpython3,android,requests,urllib3,charset-normalizer==2.1.1,idna
-
-## requirements = python3,kivy==master,hostpython3,android
-requirements = python3,kivy==master,hostpython3,android,cython==0.29.23, jnius==1.2.0
-
-
-
-## requirements = python3,kivy==2.0.0, cython==0.29.23, jnius==1.2.0
-
-
-##### matplotlib
 ########################
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
 # requirements.source.kivy = ../../kivy
-###################################
-requirements.source.cython = ../../cython
-###################################
 
 # (list) Garden requirements
 #garden_requirements =
-#garden_requirements = matplotlib
-###############
 
 # (str) Presplash of the application
 #presplash.filename = %(source.dir)s/data/presplash.png
@@ -133,9 +120,6 @@ android.sdk = 30
 # (str) Android NDK version to use
 # android.ndk = 19b
 # android.ndk = 23
-##############  android.ndk = 25
-#	android.ndk = 21.4.7075529
-##############
 
 # (bool) Use --private data storage (True) or --dir public storage (False)
 #android.private_storage = True
@@ -196,9 +180,7 @@ android.gradle_dependencies = androidx.documentfile:documentfile:1.0.1,androidx.
 android.enable_androidx = True
 
 # (str) python-for-android branch to use, defaults to stable
-### p4a.branch =development
 p4a.branch = master
-###############
 
 # (str) XML file to include as an intent filters in <activity> tag
 #android.manifest.intent_filters =
@@ -231,9 +213,6 @@ android.manifest.launch_mode = standard
 
 # (str) The Android arch to build for, choices: armeabi-v7a, arm64-v8a, x86
 android.arch = armeabi-v7a
-##### android.arch = arm64-v8a
-
-###############################################
 
 #
 # Python for android (p4a) specific
@@ -322,17 +301,6 @@ warn_on_root = 0
 
 # (str) Path to build output (i.e. .apk, .ipa) storage
 # bin_dir = ./bin
-
-####################################
-# (int) Cython compiler optimization level (0-3)
-cython.optimization = 2
-
-# (str) Path to the Cython compiler
-cython.cython_path = /usr/local/bin/cython
-
-# (str) Cython compiler options
-cython.compilation_options = language_level=3
-####################################
 
 #    -----------------------------------------------------------------------------
 #    List as sections
