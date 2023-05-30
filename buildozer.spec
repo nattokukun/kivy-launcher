@@ -52,7 +52,8 @@ version = 0.2
 ## requirements = python3,kivy==2.1.0,hostpython3,android,cython==0.29.28,pyjnius==1.3.0,jnius==1.3.0
 ## requirements = python3,kivy==master,hostpython3,android,cython
 ## requirements = python3,kivy==master,hostpython3,android,cython==0.29.9
-requirements = python3,kivy==master,hostpython3,android,cython==0.29.16
+## requirements = python3,kivy==master,hostpython3,android,cython==0.29.16
+requirements = python3=3.6.9,kivy==2.0.0,cython==0.29.16
 
 
 
