@@ -116,7 +116,7 @@ android.sdk = 30
 # (str) Android NDK version to use
 # android.ndk = 19b
 # android.ndk = 23
-android.ndk = 23
+android.ndk = 25c
 
 # (bool) Use --private data storage (True) or --dir public storage (False)
 #android.private_storage = True
