@@ -30,20 +30,12 @@ jobs:
           path: .buildozer
           key: ${{ runner.os }}-${{ steps.get-date.outputs.date }}-${{ hashFiles('buildozer.spec') }}
 
-      #- name: Build with Buildozer
-      #  uses: ArtemSBulgakov/buildozer-action@v1
-      #  id: buildozer
-      #  with:
-      #    ## command: buildozer android debug
-      #    command: buildozer appclean
-      #    buildozer_version: master
-      #    workdir: .buildozer_global
-
-      ###########
-      - name: Install dependencies # Pythonの依存環境のインストール
-        run: | #このような書き方で複数行を一気に実行することができる。
-          buildozer appclean
-      ###########
+      - name: Build with Buildozer
+        uses: ArtemSBulgakov/buildozer-action@v1
+        id: buildozer
+        with:
+          command: buildozer android debug
+          buildozer_version: master
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v3
