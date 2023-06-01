@@ -21,5 +21,3 @@ jobs:
 
       - name: Run appclean
         uses: buildozer appclean
-        with:
-          path: dist/
