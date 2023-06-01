@@ -20,6 +20,6 @@ jobs:
         run: npm run build
 
       - name: Run appclean
-        uses: satackey/action-appclean@v1.0.0
+        uses: buildozer appclean
         with:
           path: dist/
