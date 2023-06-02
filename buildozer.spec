@@ -37,7 +37,7 @@ version = 0.1
 # (list) Application requirements
 # comma seperated e.g. requirements = sqlite3,kivy
 ## requirements = kivy, android
-requirements = kivy, android
+requirements = kivy, android, cython=0.29.35
 #############
 
 # (str) Custom source folders for requirements
