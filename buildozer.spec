@@ -37,7 +37,7 @@ version = 0.1
 # (list) Application requirements
 # comma seperated e.g. requirements = sqlite3,kivy
 ## requirements = kivy, android
-requirements = kivy, android, cython=0.29.34
+requirements = kivy, android, cython=0.29.33
 #############
 
 # (str) Custom source folders for requirements
@@ -146,8 +146,8 @@ fullscreen = 0
 #android.gradle_dependencies =
 
 # (str) python-for-android branch to use, defaults to stable
-# p4a.branch = master
-p4a.branch = develop
+p4a.branch = master
+### p4a.branch = develop
 
 # (str) XML file to include as an intent filters in <activity> tag
 #android.manifest.intent_filters =
