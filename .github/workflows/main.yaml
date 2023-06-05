@@ -35,7 +35,7 @@ jobs:
         id: buildozer
         with:
           # command: buildozer android debug
-          command: buildozer android clean_app
+          command: buildozer android clean
           buildozer_version: master
           # filename: xxx
 
