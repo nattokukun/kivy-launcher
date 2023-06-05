@@ -37,7 +37,7 @@ jobs:
           # command: buildozer android debug
           command: buildozer appclean
           buildozer_version: master
-          filename: xxx
+          filename: .buildozer
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v3
