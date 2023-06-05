@@ -11,5 +11,7 @@ jobs:
 
     steps:
       - name: appclearn
-        run: |
-          buildozer appclean
+##           path: .buildozer
+       run: |
+          .buildozer/buildozer appclean
+a
