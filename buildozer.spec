@@ -92,6 +92,8 @@ fullscreen = 0
 
 # (int) Android SDK version to use
 #android.sdk = 20
+android.sdk = 34.0.1
+########################
 
 # (str) Android NDK version to use
 # android.ndk = 25
