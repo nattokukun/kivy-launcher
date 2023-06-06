@@ -36,7 +36,10 @@ version = 0.1
 
 # (list) Application requirements
 # comma seperated e.g. requirements = sqlite3,kivy
-requirements = kivy, android
+#### requirements = kivy, android
+requirements = kivy, android, python==3.9.9
+#################################################
+
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -92,8 +95,6 @@ fullscreen = 0
 
 # (int) Android SDK version to use
 #android.sdk = 20
-android.sdk = 34.0.1
-########################
 
 # (str) Android NDK version to use
 # android.ndk = 25
@@ -148,7 +149,6 @@ android.sdk = 34.0.1
 # (str) python-for-android branch to use, defaults to stable
 ## p4a.branch = master
 p4a.branch = develop
-
 ############################
 
 # (str) XML file to include as an intent filters in <activity> tag
