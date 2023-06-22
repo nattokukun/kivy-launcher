@@ -145,7 +145,8 @@ fullscreen = 0
 
 # (str) python-for-android branch to use, defaults to stable
 ## p4a.branch = master
-p4a.branch = develop
+## p4a.branch = develop
+p4a.branch = release-2022.12.20
 ############################
 
 # (str) XML file to include as an intent filters in <activity> tag
