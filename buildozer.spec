@@ -28,7 +28,8 @@ source.exclude_dirs = tests, bin, art
 #source.exclude_patterns = license,images/*/*.jpg
 
 # (str) Application versioning (method 1)
-version = 0.1
+### version = 0.1
+version = 0.2
 
 # (str) Application versioning (method 2)
 # version.regex = __version__ = ['"](.*)['"]
@@ -36,7 +37,8 @@ version = 0.1
 
 # (list) Application requirements
 # comma seperated e.g. requirements = sqlite3,kivy
-requirements = kivy, android
+### requirements = kivy, android
+requirements = python3,kivy==master,hostpython3,android,requests,urllib3,charset-normalizer==2.1.1,idna
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -142,12 +144,14 @@ fullscreen = 0
 # (list) Gradle dependencies to add (currently works only with sdl2_gradle
 # bootstrap)
 #android.gradle_dependencies =
+android.gradle_dependencies = androidx.documentfile:documentfile:1.0.1,androidx.core:core:1.1.0
+###
 
 # (str) python-for-android branch to use, defaults to stable
 ## p4a.branch = master
 ## p4a.branch = develop
 p4a.branch = release-2022.12.20
-############################
+###
 
 # (str) XML file to include as an intent filters in <activity> tag
 #android.manifest.intent_filters =
@@ -215,7 +219,7 @@ android.archs = armeabi-v7a,arm64-v8a
 # (list) Permissions
 [app:android.permissions]
 READ_EXTERNAL_STORAGE
-######## WRITE_EXTERNAL_STORAGE
+### WRITE_EXTERNAL_STORAGE
 ACCESS_LOCATION_EXTRA_COMMANDS
 ACCESS_NETWORK_STATE
 ACCESS_NOTIFICATION_POLICY
