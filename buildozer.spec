@@ -38,7 +38,16 @@ version = 0.2
 # (list) Application requirements
 # comma seperated e.g. requirements = sqlite3,kivy
 ### requirements = kivy, android
-requirements = python3,kivy==master,hostpython3,android,requests,urllib3,charset-normalizer==2.1.1,idna
+requirements =
+    python3,
+    kivy==master,
+    hostpython3,
+    android,
+    requests,
+    urllib3,
+    charset-normalizer==2.1.1,
+    idna,
+    kivy_garden
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
