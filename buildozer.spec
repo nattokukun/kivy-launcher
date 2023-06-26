@@ -47,7 +47,7 @@ requirements =
     urllib3,
     charset-normalizer==2.1.1,
     idna,
-    kivy_garden
+    kivy_garden.contextmenu
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
