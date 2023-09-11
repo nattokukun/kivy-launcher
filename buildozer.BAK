@@ -153,9 +153,7 @@ fullscreen = 0
 # (list) Gradle dependencies to add (currently works only with sdl2_gradle
 # bootstrap)
 #android.gradle_dependencies =
-android.gradle_dependencies = 
-    androidx.documentfile:documentfile:1.0.1,
-    androidx.core:core:1.1.0
+android.gradle_dependencies = androidx.documentfile:documentfile:1.0.1,androidx.core:core:1.1.0
 ###
 
 # (str) python-for-android branch to use, defaults to stable
